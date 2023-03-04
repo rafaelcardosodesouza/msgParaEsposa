@@ -1,36 +1,76 @@
-body{
+body {
 	padding: 0;
 	margin: 0;
 	background: #000;
-} /* tenho de arrumar acentralização*/
-#container{ 
+}
+
+/* tenho de arrumar acentralização*/
+#container {
 	display: flex;
-  	justify-content: center;
- 	align-items: center;
-  	height: 100vh;
-  	margin-left: 3%;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin-left: 3%;
+	
 }
 
-.msgUn{
-	width: 125px;
- 	height: 125px;
-  	display: inline-block;
-  	border: 1px solid red;
-  	color: #fff;
-  	text-align: center;
-  	line-height: 900%;
-  	margin: 15px;
-  	border-radius: 25px;
+.msgUn {
+	width: 100PX;
+	height: 100px;
+	display: inline-block;
+	border: 1px solid red;
+	color: #fff;
+	text-align: center;
+	line-height: 100px;
+	text-align: center;
+	margin: 15px;
+	border-radius: 25px;
+	font-size: 16px;
 
 
 }
-.msgUn:hover{
-	background: red ; 
+
+.msgUnHover {
 	transform: scale(1.25);
 	transition: transform 1.5s ease-in-out, background-color 1.5s ease;
+	color: #000;
 
-
-
+  }
+.msgTextPrincipal{
+	color: #fff;
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 0.1em 0.1em 0.15em #fa7f72;
 }
+/*ESTILO 01*/
+
+
+
+
+/*ESTILO 02*/
+
+
+
+
+/*ESTILO 03*/
+
+
+
+
+/*ESTILO 04*/
+
+
+
+
+/*ESTILO 05*/
+
+
+
+
+/*ESTILO 06*/
+
+
 
 
