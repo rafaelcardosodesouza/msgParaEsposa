@@ -1,3 +1,7 @@
+/* */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
 body {
 	padding: 0;
 	margin: 0;
@@ -5,20 +9,29 @@ body {
 }
 
 /* tenho de arrumar acentralização*/
+#rodape {
+	width: 100%;
+	background: #ffffff;
+	text-align: center;
+	color: blue;
+	position: fixed;
+	bottom: 0;
+}
+
 #container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	margin-left: 3%;
-	
+
 }
 
 .msgUn {
 	width: 100PX;
 	height: 100px;
 	display: inline-block;
-	border: 1px solid red;
+	border: 3px solid rgba(176, 47, 180, 0.678);
 	color: #fff;
 	text-align: center;
 	line-height: 100px;
@@ -35,19 +48,49 @@ body {
 	transition: transform 1.5s ease-in-out, background-color 1.5s ease;
 	color: #000;
 
-  }
-.msgTextPrincipal{
+}
+
+.msgTextPrincipal {
 	color: #fff;
 	width: 750px;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 25px;
+	font-size: 20px;
 	text-shadow: 0.1em 0.1em 0.15em #fa7f72;
 }
+
 /*ESTILO 01*/
+#bodyMsg01 {
+	background: #fa8072af;
+}
 
+#containerMsg01 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+}
 
+.msg01 {
+	margin-top: 120px;
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Tilt Neon', cursive;
+}
 
+img {
+	max-height: 450px;
+	width: auto;
+}
+
+.spanmsg01 {
+	font-size: 30px;
+	background-image: linear-gradient(to right, #000000, #ffffff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 /*ESTILO 02*/
 
@@ -70,7 +113,3 @@ body {
 
 
 /*ESTILO 06*/
-
-
-
-
