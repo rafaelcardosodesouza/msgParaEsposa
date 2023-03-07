@@ -186,7 +186,45 @@ img {
 }
 
 /* ESTILO 03 */
+#bodyMsg03{
+	background: #ffffff00;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#containerMsg03 .img01{
+	position: relative;
+	width: 140px;
+	bottom: 0;
+	transform: scaleX(-1);
+}
+#containerMsg03 .img02{
+	position: relative;
+	width: 140px;
+	bottom: 0;
+	
 
+}
+#containerMsg03 .img03{
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	width: 450px;
+	height: auto;
+}
+#containerMsg03 .img04{
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	width: 150px;
+	height: auto;
+}
+#containerMsg03 .img05{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	width: 130px;
+}
 /* ESTILO 04 */
 
 /* ESTILO 05 */
