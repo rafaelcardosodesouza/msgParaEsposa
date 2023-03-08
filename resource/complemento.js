@@ -7,11 +7,24 @@ msgUns.forEach((msgUn) => {
     msgUn.classList.add('msgUnHover');
     msgUn.style.backgroundColor = corAleatoria;
   });
-  
+
   msgUn.addEventListener('mouseleave', () => {
     msgUn.classList.remove('msgUnHover');
     msgUn.style.backgroundColor = '';
   });
 });
 
+//aumentar a letra devagar 
+
+
+
+// var tamanhoFonte = 24; // Defina o tamanho da fonte inicial
+// var texto = document.getElementById("font24-30");
+
+// function aumentarFonte() {
+//   tamanhoFonte++;
+//   texto.style.fontSize = tamanhoFonte + "px";
+// }
+
+// setInterval(aumentarFonte, 100); // Aumenta a fonte em 1 pixel a cada 100 milissegundos
 
