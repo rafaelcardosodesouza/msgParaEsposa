@@ -114,7 +114,7 @@ img {
 }
 
 #bodyMsg02 #container{
-	display: flex;
+	display: flex; 
 	justify-content: center;
 	align-items: center;
 	color: #000;
@@ -318,8 +318,3 @@ img {
 
 }
 
-/* ESTILO 04 */
-
-/* ESTILO 05 */
-
-/* ESTILO 06 */
